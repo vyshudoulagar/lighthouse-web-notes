@@ -1,4 +1,9 @@
-@@ -7,3 +7,98 @@
+# M01W02 - Callbacks!
+
+### To Do
+
+- [ ] Functions as values
+- [ ] Function calling vs function passing
 - [ ] Callbacks and higher order functions
 - [ ] Anonymous functions
 - [ ] Arrow functions
@@ -76,6 +81,7 @@ myHigherOrderFunction(function () {});
 const myFunc = function () {
   // do something
 };
+
 // arrow function
 const myArrowFunc = () => {
   // do something
@@ -91,6 +97,8 @@ arr.forEach(function (element) {});
 // vs
 arr.forEach((element) => {});
 ```
+
 ### Useful Links
+
 - [Wikipedia: Callbacks](<https://en.wikipedia.org/wiki/Callback_(computer_programming)>)
 - [MDN: Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
